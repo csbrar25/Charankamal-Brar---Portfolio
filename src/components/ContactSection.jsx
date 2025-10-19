@@ -3,13 +3,13 @@ import {cn }  from "@/lib/utils";
 
 export const ContactSection = () => {
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
+    // const handleSubmit = (e) => {
+    //     e.preventDefault()
 
-        setTimeout(() => {
+    //     setTimeout(() => {
 
-        }, 1500)
-    }
+    //     }, 1500)
+    // }
     return (
         <section 
             id="contact"
