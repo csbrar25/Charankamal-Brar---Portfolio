@@ -1,11 +1,13 @@
 import { ExternalLink,Github, ArrowRight } from "lucide-react";
 
+const BASE = import.meta.env.BASE_URL;
+
 const projects = [
     {
         id:1,
         title: "Stickman-The Savior",
         description: "A 2D beat-em-up game, creating interactive gameplay mechanics, sprite-based animations, and responsive user controls ",
-        image: "/projects/project1.png",
+        image: `${BASE}/projects/project1.png`,
         tags: ["Javascript", "HTML5 Canvas", "Animation"],
         demoURL: "https://joser27.github.io/TCSS491-GameProject/",
         githubURL: "https://github.com/joser27/TCSS491-GameProject",
@@ -16,7 +18,7 @@ const projects = [
         id: 2,
         title: "Library Website Front-End",
         description: "An interactive web application leveraging React/Next.js to implement book viewing, searching, creation, and editing via RESTful API integration",
-        image: "/projects/project2.png",
+        image: `${BASE}/projects/project2.png`,
         tags: ["React", "Next.js", "REST API"],
         demoURL: "#",
         githubURL: "https://github.com/hawkeyegoat/TCSS460-group2-frontend"
@@ -26,7 +28,7 @@ const projects = [
         id: 3,
         title: "Indie Arcade",
         description: "A scalable backend infrastructure to support user accounts, game discovery, purchasing functionalities, and secure transactions",
-        image: "/projects/project3.png",
+        image: `${BASE}/projects/project3.png`,
         tags: ["Node.js", "Express", "SQL"],
         demoURL: "#",
         githubURL: "https://github.com/joser27/445-backend.git"
