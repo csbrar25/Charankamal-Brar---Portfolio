@@ -20,7 +20,6 @@ const skills = [
   { name: "MySQL", level: 70, category: "backend" },
   { name: "PostgreSQL", level: 70, category: "backend" },
   { name: "SQLite", level: 65, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
 
   // ===== Programming Languages =====
   { name: "Java", level: 85, category: "language" },
@@ -35,8 +34,7 @@ const skills = [
   { name: "IntelliJ IDEA", level: 85, category: "tools" },
   { name: "Docker", level: 70, category: "tools" },
   { name: "Postman", level: 80, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "Jupyter Notebook", level: 90, category: "tools" },
+  { name: "Jupyter Notebook", level: 80, category: "tools" },
   { name: "Anaconda", level: 85, category: "tools" },
   { name: "Linux", level: 80, category: "tools" },
 

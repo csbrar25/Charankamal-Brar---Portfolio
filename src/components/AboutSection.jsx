@@ -1,5 +1,7 @@
 import { Code, User, Briefcase } from "lucide-react";
 
+const BASE = import.meta.env.BASE_URL;
+
 export const AboutSection = () => {
     return (
         <section id="about" className="py-24 px-4 relative">
@@ -27,7 +29,10 @@ export const AboutSection = () => {
                             <a href="#contact" className="cosmic-button">
                                 Get In Touch
                             </a>
-                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href={`${import.meta.env.BASE_URL}Resume/CharankamalBrarCSResume.pdf`}
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download Resume
                             </a>
                         </div>
