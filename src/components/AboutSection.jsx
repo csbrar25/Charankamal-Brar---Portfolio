@@ -1,4 +1,4 @@
-import { Code, User, Briefcase } from "lucide-react";
+import { Code, BrainCircuit, Server  } from "lucide-react";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -14,16 +14,19 @@ export const AboutSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold"> Passionate Web Developer </h3>
+                        <h3 className="text-2xl font-semibold"> Driven Software Engineer & AI Enthusiast </h3>
 
                         <p className="text-muted-foreground">
-                            I have bachelors in Computer Science from University Of Washington, I am eager
-                            to make a real world impact with the skills I learned.
+                            I’m a Computer Science graduate from the University of Washington Tacoma, passionate about crafting scalable, 
+                            high-quality applications that bridge functionality and creativity. 
+                            I enjoy solving complex problems and transforming ideas into polished, impactful digital experiences.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I have experience of working on projects in team, which taught me lot about how to be
-                            a team player, and to organize time as different team members have different schedule.
+                            Through hands-on experience in full-stack development, machine learning, and data-driven systems, 
+                            I’ve built projects using React, Next.js, Node.js, PostgreSQL, and Python, and contributed to AI model 
+                            optimization at Outlier AI. Working with diverse teams has strengthened my collaboration, adaptability, 
+                            and project-management skills across both technical and creative workflows.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -47,7 +50,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Web Development </h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web application with modern framework. 
+                                        Building responsive, high-performance websites and web applications using React, Next.js, and Tailwind CSS. 
                                     </p>
                                 </div>
                             </div>
@@ -55,12 +58,12 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10"> 
-                                    <User className="h-6 w-6 text-primary" />
+                                    <Server className="h-6 w-6 text-primary" />
                                 </div>
                                  <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> UI/UX Design </h4>
+                                    <h4 className="font-semibold text-lg"> Backend & Databases </h4>
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user experiences.
+                                        Developing scalable APIs and managing structured data with Node.js, Express, and PostgreSQL.
                                     </p>
                                 </div>
                             </div>
@@ -68,12 +71,12 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10"> 
-                                    <Briefcase className="h-6 w-6 text-primary" />
+                                    <BrainCircuit className="h-6 w-6 text-primary" />
                                 </div>
                                  <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Project Management </h4>
+                                    <h4 className="font-semibold text-lg"> AI & Data Science </h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from conception to completion with agile methodologies. 
+                                        Exploring machine learning and data analysis through Python, PyTorch, and R to drive intelligent automation. 
                                     </p>
                                 </div>
                             </div>
