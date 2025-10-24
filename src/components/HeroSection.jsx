@@ -15,12 +15,8 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        A Computer Science graduate from the University of Washington Tacoma, specializing in software engineering 
-                        and machine learning.
-                        I build scalable, user-focused applications using React, Next.js, Tailwind, Node.js, and PostgreSQL, and 
-                        leverage Python, Java, and PyTorch to explore data-driven systems and intelligent automation.
-                        With hands-on experience across front-end, back-end, and AI projects - from full-stack web platforms to 
-                        model evaluation for Outlier AI. I’m driven by a passion for creating reliable, efficient, and impactful technology.
+                        Computer Science graduate specializing in software engineering and machine learning. Experienced in React, 
+                        Node.js, PostgreSQL, Python, and AI systems, building scalable and user-focused applications.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
