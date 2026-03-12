@@ -42,6 +42,13 @@ const skills = [
   { name: "PyTorch", level: 70, category: "framework" },
   { name: "Unity", level: 75, category: "framework" },
 
+  // ===== AI/ML =====
+  { name: "RAG", level: 70, category: "AI/ML" },
+  { name: "AWS Bedrock", level: 75, category: "AI/ML" },
+  { name: "Anthropic Claude", level: 70, category: "AI/ML" },
+  { name: "Scikit-Learn", level: 80, category: "AI/ML" },
+  { name: "Regression Models", level: 75, category: "AI/ML" },
+
   // ===== Concepts =====
   { name: "Object-Oriented Design (OOD)", level: 90, category: "concepts" },
   { name: "Design Patterns", level: 85, category: "concepts" },
@@ -53,7 +60,7 @@ const skills = [
   { name: "Unit Testing", level: 75, category: "concepts" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools", "language", "framework", "concepts"];
+const categories = ["all", "frontend", "backend", "tools", "language", "framework", "AI/ML", "concepts"];
 
 export const SkillsSection = () => {
 

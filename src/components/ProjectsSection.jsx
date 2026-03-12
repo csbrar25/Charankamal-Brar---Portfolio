@@ -15,7 +15,29 @@ const projects = [
     },
 
     {
-        id: 2,
+        id:2,
+        title: "AI Career Assistant - RAG Chatbot",
+        description: "Built a RAG-based AI chatbot using AWS Bedrock and Claude to answer career and job preparation questions using document retrieval and LLM reasoning.",
+        image: `${BASE}/projects/project4.png`,
+        tags: ["Python", "AWS Bedrock", "Anthropic Claude"],
+        demoURL: "#",
+        githubURL: "https://github.com/csbrar25/career-rag-bot",
+
+    },
+
+    {
+        id:3,
+        title: "House Price Prediction - ML Model",
+        description: "Developed a machine learning model using XGBoost and Scikit-Learn on structured housing data to predict home prices with feature engineering and model evaluation.",
+        image: `${BASE}/projects/project5.png`,
+        tags: ["Python", "AWS SageMaker", "XGBoost", "Scikit-Learn"],
+        demoURL: "#",
+        githubURL: "https://github.com/csbrar25/house-price-xgboost-sagemaker",
+
+    },
+
+    {
+        id: 4,
         title: "Library Website Front-End",
         description: "A full-stack web app developed with React and Next.js that enables users to view, search, create, and edit books through RESTful API integration and intuitive UI design.",
         image: `${BASE}/projects/project2.png`,
@@ -25,7 +47,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 5,
         title: "Indie Arcade",
         description: "A scalable backend system built with Node.js, Express, and SQL to support secure user accounts, game discovery, and purchase functionality with reliable API routing and data integrity.",
         image: `${BASE}/projects/project3.png`,
